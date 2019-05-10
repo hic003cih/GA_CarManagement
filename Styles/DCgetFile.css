@@ -1,0 +1,73 @@
+<!--
+.HeaderWrap
+{
+    text-align:left;
+
+}
+.pageHeader
+{
+    line-height:30px;
+	font-family: Arial;
+	font-size: 17px;
+}
+-->
+#button_area
+{
+     text-align: right;
+     background-color:#cee3ff;
+     padding:5px 20px 5px 0px ;
+}
+.btn
+{
+    border: 1px  #6699FF solid;
+    color: #003366;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 1em;
+    line-height:20px;
+    margin: 2px 0 0;
+    vertical-align: top;
+    font-family:verdana,helvetica,arial,sans-serif;
+	font-weight: bold;
+}
+td.label {
+   height:auto;
+   width:auto;
+   font-size: 13px;
+   hight:none;
+}
+td.inputField {
+   hieght:auto;
+   width:auto;
+   font-size: 13px;
+   hight:none;
+   padding-left: 2px;
+}
+
+<!--For Validate-->
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+}
+.input-validation-valid
+{
+   border: 1px solid #00ff00;
+}
+.field-validation-error
+{
+	color: #ff0000;
+	font-size: 1.4em;
+}
+.field-validation-valid
+{
+	display: none;
+}
+.validation-summary-errors
+{
+	font-weight: bold;
+	color: #ff0000;
+}
+.validation-summary-valid
+{
+	display: none;
+}

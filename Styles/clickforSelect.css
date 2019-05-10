@@ -1,0 +1,46 @@
+﻿        body
+        {
+            background-color:#F3F3E2;
+        }
+
+
+        /**********************/
+        
+       
+        
+        
+         /****Div彈出層樣式【通知】****/
+
+        #Mail_faqdiv1
+        {
+    position: fixed;
+    width: 700px;
+    height: 400px;
+    margin-top: -150px;
+    margin-left: -350px;
+    z-index: 100;
+    background-color: #fff;
+    border: 2px #8FA4F5 solid;
+    padding: 0px;
+        }
+        #Mail_faqdiv1 h2
+        {
+            height: 25px;
+            font-size: 14px;
+            background-color: #8FA4F5;
+            position: relative;
+            line-height: 25px;
+        }
+        #Mail_faqdiv1 h2 a
+        {
+            position: absolute;
+            right: 5px;
+            font-size: 12px;
+            color: #FF0000;
+        }
+        #Mail_faqdiv1 .signInfo
+        {
+            padding: 0px ;
+        }
+        /**********************/
+     

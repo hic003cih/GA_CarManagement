@@ -1,0 +1,116 @@
+@charset "utf-8";
+#table_body {
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	padding: 0px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.title{
+	font-size:12pt;
+	color:#ffffff;
+	font-weight:bold;
+	}
+.title_main{
+	font-size:10.5pt;
+	color:#eb6100;
+	font-weight:bold;
+	padding-top:16px;
+	padding-bottom:0px;
+	}
+.title_main2{
+	font-size:10.5pt;
+	color:#003567;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:18px;
+	}
+.title_second{
+	font-size:11pt;
+	color:#fff;
+	font-weight:bold;
+	}
+.title_third{
+	font-size:11pt;
+	color:#333;
+	font-weight:bold;
+	}		
+.select{
+	font-size:11pt;
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	color:#666;
+	width:250px;
+	padding:3px;
+}
+.select0{
+	font-size:11pt;
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	color:#666;
+	padding:3.4px;
+}
+.main_content{
+	font-size:11pt;
+	color:#333;
+	padding-top:8px;
+	padding-bottom:8px;
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+}
+.select_new{
+	font-size:11pt;
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	color:#333;
+	line-height:15pt;
+	width:46px;
+	padding-left:7px;
+	
+}
+#main1 {
+	margin: 0px;
+	padding: 0px;
+	width: 1100px;
+	border: thin solid #B2B2B2;
+	margin-right: auto;
+	margin-left: auto;
+}
+#main2 {
+	margin: 0px;
+	padding: 0px;
+	width: 1100px;
+	border: thin solid #B2B2B2;
+	margin-right: auto;
+	margin-left: auto;
+}
+#main3 {
+	margin: 0px;
+	padding: 0px;
+	width: 1100px;
+	border: thin solid #B2B2B2;
+	margin-right: auto;
+	margin-left: auto;
+}
+#main4 {
+	margin: 0px;
+	padding: 0px;
+	width: 1100px;
+	border: thin solid #B2B2B2;
+	margin-right: auto;
+	margin-left: auto;
+}
+#main5 {
+	margin-top:20px;
+	padding: 0px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#main6 {
+	margin-bottom: 50px;
+	padding: 0px;
+	width: 1100px;
+	border: thin solid #B2B2B2;
+	margin-right: auto;
+	margin-left: auto;
+}
+

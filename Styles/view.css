@@ -1,0 +1,52 @@
+﻿HTML, body
+{padding:0px !important;
+margin:0px !important;
+}
+
+.evencol {
+
+border-left: 1px solid #E8E8E9;
+
+border-right: 1px solid #E8E8E9;
+
+padding-left: 3px;
+
+}
+
+.oddcol {
+
+padding-left: 3px;
+
+}
+.oddrow { 
+ background-color: rgb(235, 235, 235);
+}
+
+.evenrow {
+
+}
+.evenrow:Hover {
+
+ background-color: rgb(288, 250, 221);
+
+}
+
+.oddrow:Hover {
+
+ background-color: rgb(288, 250, 221);
+
+}
+
+
+
+.evencol:Hover {
+
+ background-color: rgb(222, 238, 248);
+
+}
+
+.oddcol:Hover {
+
+ background-color: rgb(222, 238, 248);
+
+}

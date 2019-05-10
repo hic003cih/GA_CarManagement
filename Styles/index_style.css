@@ -1,0 +1,356 @@
+﻿body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(images/header_bg.jpg);
+	background-repeat: repeat-x;
+	background-color: #000000;
+}//最外層的框
+#wrapper {
+	margin: 0px auto;
+	padding: 0em;
+	width: 1112px;
+	z-index:1;
+}
+#header {
+	width: 1112px;
+	height: 49px;
+	background-image: url(images/header_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	padding: 0px 0px 0px;
+	margin: 0px auto;
+}
+#logo {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(images/logo.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: left;
+}
+#logo a {
+	display: inline-block;
+	width: 490px;
+	height: 49px;
+}
+.username {
+	float: right;
+	margin-top:20px;
+	margin-right:0px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 12px;
+	width: 30%;
+	border:0px solid red;
+	
+}
+#ddlDept
+{
+    margin: -2px; border:1px solid #C0C0C0; font-size:10px; width:auto;    
+}
+a.logout
+{      
+       color:#fff;
+       font-size:12px;
+      
+       
+}
+.0em {
+	padding: 56px 0em 0em 0em;
+	height: 50px;
+	float: right;
+	width: 700px;
+}
+#nav ul {
+	margin: 0px;
+	padding: 0px 0px 0px 38px;
+	list-style-type: none;
+}
+#nav li {
+	float: left;
+	list-style-type: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	text-align: right;
+}
+#nav li a {
+	float: left;
+	color: #ffffff;
+	height: 50px;
+	text-decoration: none;
+	vertical-align: middle;
+	display: block;
+}
+#nav .current a, #nav li a:hover {
+	color: #f6ffab;
+	text-decoration: underline;
+}
+#nav li a.nav01 {
+	background-image: url(images/nav01.jpg);
+	background-position: left top;
+	display: inline-block;
+	width: 95px;
+}
+#nav li a.nav01:hover {
+	background-image: url(images/nav01_h.jpg);
+}
+#nav li a.nav02 {
+	background-image: url(images/nav02.jpg);
+	background-position: left top;
+	width: 114px;
+}
+#nav li a.nav02:hover {
+	background-image: url(images/nav02_h.jpg);
+}
+#nav li a.nav03 {
+	background-image: url(images/nav03.jpg);
+	background-position: left top;
+	display: inline-block;
+	width: 115px;
+}
+#nav li a.nav03:hover {
+	background-image: url(images/nav03_h.jpg);
+}
+#nav li a.nav04 {
+	background-image: url(images/nav04.jpg);
+	background-position: left top;
+	width: 134px;
+}
+#nav li a.nav04:hover {
+	background-image: url(images/nav04_h.jpg);
+}
+#nav li a.nav05 {
+	background-image: url(images/nav05.jpg);
+	background-position: left top;
+	display: inline-block;
+	width: 96px;
+}
+#nav li a.nav05:hover {
+	background-image: url(images/nav05_h.jpg);
+}
+#nav li a.nav06 {
+	background-image: url(images/nav06.jpg);
+	background-position: left top;
+	width: 96px;
+}
+#nav li a.nav06:hover {
+	background-image: url(images/nav06_h.jpg);
+}
+/*Header END*/
+#h_container {
+	margin: 0px auto;
+	padding: 0px 0px;
+	height: 100%;
+	background-color: #E1D6CB;
+	position: relative;
+}
+#left_content {
+	background-image: url(images/pro-slider.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+	float: left;
+	height: 450px;
+	width: 578px;
+	position: relative;
+}
+#show-pro {
+	position: absolute;
+	top: 30px;
+	left: 180px;
+	padding: 10px;
+	width: 200px;
+}
+#show-pro p {
+	font-size: 15px;
+	font-family: 微軟正黑體;
+	line-height: 20px;
+	color: #000;
+	text-align: center;
+	width: 180px;
+	margin: 15px 0 0 10px;
+}
+.left-arrow, .right-arrow {
+	background-image: url(images/left-arrow.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 40px;
+	display: block;
+	position: absolute;
+	left: 37px;
+	top: 170px;
+}
+.right-arrow {
+	background-image: url(images/right-arrow.jpg);
+	left: 506px;
+}
+#right_content {
+	float: left;
+	height: 450px;
+	width: 400px;
+}
+#pro-tit {
+	background-image: url(images/pro-tiit.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin: 20px 0 0 0;
+	width: 273px;
+	height: 47px;
+}
+#right_content img {
+	float: right;
+}
+#right_content #pro-word {
+	font-family: 微軟正黑體;
+	font-size: 15px;
+	color: #636363;
+	float: left;
+	line-height: 25px;
+	padding: 0 0 0 8px;
+}
+#bottom_content {
+	clear: both;
+	height: 125px;
+	padding: 0 0 0 100px;
+	_padding: 0;
+	background-color: #FFFFFF;
+}
+.rose {
+	position: absolute;
+	left: 0;
+	top: 379px;
+	width: 151px;
+	height: 195px;
+	background-image: url(images/rose-img.jpg);
+	background-repeat: no-repeat;
+}
+/* 頁中 END*/
+#h_footer {
+	height: 20px;
+	clear: both;
+	margin: 0px 0px 0px 0px;
+	background-image: url(images/h_footer.jpg);
+	background-repeat: repeat-x;
+}
+/*下列樣式 \...中間內容功能區塊*/
+/*最新消息*/
+#news_ct {
+	margin: 0px 0px 0 80px;
+	width: 244px;
+	float: left;
+}
+.news_tit {
+	margin: 0px 0px 0 0px;
+	padding: 0px;
+	background-image: url(images/new_tit.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+.news_tit a {
+	height: 37px;
+	width: 244px;
+	display: block;
+}
+#news_ct ul {
+	margin: 0px;
+	padding: 5px 0px 0px;
+}
+#news_ct li {
+	margin: 0px 0 0 15px;
+	padding: 3px 0px 0px 0px;
+	list-style-type: none;
+	line-height: 20px;
+	font-size: .8em;
+	border-bottom: 1px #e9e4e4 solid;
+}
+#news_ct li a {
+	color: #7f7f7f;
+	text-decoration: none;
+}
+#news_ct li a:hover {
+	color: #5E8273;
+	text-decoration: underline;
+}
+#news_ct li a span {
+	color: #006600;
+	padding: 0px 10px 0px 0px;
+}
+#company {
+	background-image: url(images/entreprise.jpg);
+	background-repeat: no-repeat;
+	width: 250px;
+	float: left;
+	margin: 0 0 0 80px;
+}
+#company a {
+	width: 104px;
+	height: 37px;
+	display: block;
+}
+#company p {
+	color: #979797;
+	font-size: 13px;
+	line-height: 22px;
+	padding: 0 0 0 20px;
+	margin: 0;
+}
+#right-img {
+	float: right;
+	padding: 40px 42px 0 0;
+}
+/*-----------Login PAGE------------------------*/
+#login_header
+{
+	width: 1002px;
+	height: 49px;
+	background-image: url(images/header_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: center  top;
+	padding: 0px 0px 0px;
+	margin: 0px auto;
+}
+#login_logo
+{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(images/logo.jpg);
+	background-repeat: no-repeat;
+	background-position:  center top;
+	display:block;
+	width: 100%;
+	height: 49px;}
+#login_page
+{
+     	background-image: url(images/login_bg.jpg);
+	background-repeat: no-repeat;
+           background-position:center 49px;
+           background-color:#fff;
+	padding:0px 0px 0px 0px;
+	margin: 0px auto;
+	height:700px;
+	width:1002px;
+
+}
+#login_box
+{
+       	padding:140px 0px 0px 360px;
+	margin: 0px auto;
+	height:150px;
+	color:black;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+ 
+}
+.login_bt
+{
+	 background-image: url(images/login_bt.jpg);
+	 background-color:transparent;
+	 background-repeat: no-repeat;
+           background-position:left top;
+           width:83px;
+           height:60px;
+           border:0;
+            margin:0 0 0 5px;
+            cursor:pointer;
+
+}

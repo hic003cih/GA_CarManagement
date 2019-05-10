@@ -1,0 +1,172 @@
+﻿        body
+        {
+            background-color:#F3F3E2; 
+        }
+        .SignCount_main
+        {
+            margin-left:auto;
+            margin-right:auto;
+            margin-top:10px;
+            height:100%;
+            width:100%;
+            border:0px solid gray;
+        }
+        .SignCount_marginTop
+        {
+             margin-top:5%;
+             margin-left:5%;
+        }
+        
+        .SignCount_moreSign
+        {
+            font-size:13px;
+            color:#003B5A;
+            margin-top:15px;
+            margin-left:5%;
+            width:100%;  
+        }
+        
+        .SignCount_mess
+        {
+            margin-top:15px; 
+            font-size:15px;
+            font-weight:bold;
+            color:#003B5A; 
+            margin-left:5%;    
+        }
+        
+        .SignCount_txt
+        {
+            float:left; 
+            font-size:14px;
+            color:#003B5A;  
+            width:100px;
+            margin-left:3px;
+        }
+       .SignCount_List
+       {
+            font-size:15px;
+            color:#003B5A;
+       }
+       
+        #SignCount_txtArea
+        {
+            width:61%;
+            height:60px; 
+            margin-left:5px; 
+            border:1px solid #58805f;
+        }
+        .SignCount_txtWidth
+        {
+            text-align:left;
+            margin-left:5px;
+            width:61%; 
+            border:1px solid #58805f;
+            height:50px;
+        }
+        
+        #SignCount_submit
+        {
+           margin-left:62%;
+            /*border:1px solid gray;  
+            width:55px;
+            margin-bottom:10px;*/
+        }
+        #SignCount_back
+        {
+            margin-left:10px;
+            /*border:1px solid gray;  
+            width:55px;
+            margin-bottom:10px;*/
+        }
+       
+        
+        #CurrentFlow
+        {
+            margin-left:40px; 
+            font-weight:bold;    
+        }
+        .SignCount_txtNodeNameSize
+        {
+            font-size:13px;
+            color:#003B5A;
+        }
+        
+        .txtSize
+        {
+            font-size:13px;     
+        }
+        #SignCount_MoreSignResult
+        {
+            width:285px;
+            font-size:10px;
+        }
+        .spanStyle
+        {
+            font-size:14px;
+            color:#003B5A;    
+        }
+        .redStyle
+        {
+            color:Red; 
+            font-size:12px; 
+            margin-bottom:3px;   
+        }
+        .SignCount_label
+        {
+            margin-left:5px;     
+        }
+         #CurrentAction
+        {
+            color:Red;     
+        }
+     
+       /****Div彈出層樣式【通知】****/
+        #Mail_faqbg
+        {
+            background-color: #666666;
+            position: absolute;
+            z-index: 99;
+            left: 0;
+            top: 0;
+            display: none;
+            width: 100%;
+            
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+            -moz-opacity: 0.5;
+        }
+        #Mail_faqdiv
+        {
+            position: absolute;
+            width: 95%;
+            height: 90%;
+            margin-top:-20px;
+            margin-left:10px;
+            margin-right:auto; 
+            
+            z-index: 100;
+            background-color: #fff;
+            border: 1px #8FA4F5 solid;
+            padding: 1px;
+        }
+        #Mail_faqdiv h2
+        {
+            height: 25px;
+            font-size: 14px;
+            background-color: #8FA4F5;
+            position: relative;
+            line-height: 25px;
+        }
+        #Mail_faqdiv h2 a
+        {
+            position: absolute;
+            right: 5px;
+            font-size: 12px;
+            color: #FF0000;
+        }
+        #Mail_faqdiv .signInfo
+        {
+            padding: 0px;
+        }
+        /**********************/

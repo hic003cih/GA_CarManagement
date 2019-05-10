@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 27.5, 11.875" name="BT">
+  <DataContextMoniker Name="/BTDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b292d3fa-5a25-4cb5-8027-d9c7bc5579da" absoluteBounds="2.875, 3.25, 2, 1.9631982421875">
+      <DataClassMoniker Name="/BTDataContext/Item_Quality" />
+      <nestedChildShapes>
+        <elementListCompartment Id="99974207-7f1f-4a41-a890-3b36f368b1c4" absoluteBounds="2.8899999999999997, 3.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="69886ef0-51ae-4b6b-8742-74dcccfa4e0c" absoluteBounds="2.875, 5.375, 2, 1.9631982421875">
+      <DataClassMoniker Name="/BTDataContext/Item_AssistMatter" />
+      <nestedChildShapes>
+        <elementListCompartment Id="83f8539a-6c50-4231-bcd1-a8c67bd8f58d" absoluteBounds="2.89, 5.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f1387f8b-2245-4d55-a994-0a0d59a36ab7" absoluteBounds="2.875, 7.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/BTDataContext/Item_TrafficCar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="32c1ad44-90b7-42c3-81af-7c69ec23d390" absoluteBounds="2.89, 8.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="20cacc8b-85cc-4c6f-a4a0-88fe138a5c13" absoluteBounds="10.25, 4.25, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/BTDataContext/V_EPS_FormEnd" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7da5af97-1089-47e9-9ed2-34fde144795f" absoluteBounds="10.265, 4.71, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cc80f359-9ebb-4972-99e8-9a10b8c013f9" absoluteBounds="12.875, 5.625, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/BTDataContext/List_NoticeMan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="87e3f98c-8929-4b98-8d03-bfb04d1be055" absoluteBounds="12.89, 6.085, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="296ca2b9-54e3-42ad-b7ac-960d6635a510" absoluteBounds="12.75, 0.5, 2, 4.8477197265625">
+      <DataClassMoniker Name="/BTDataContext/V_EPS_NeedSign" />
+      <nestedChildShapes>
+        <elementListCompartment Id="48e0236e-25f9-495a-ac1c-41f75c3c4862" absoluteBounds="12.765, 0.96, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c66f8614-e4ab-4e14-adcb-55b3a83c1fdd" absoluteBounds="3, 0.625, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/BTDataContext/Item_BusinessTravel" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ca13685d-69f6-4e1c-8e58-af6f657adc0a" absoluteBounds="3.015, 1.085, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e6df1672-8a30-4115-9986-06c2a3544a8c" absoluteBounds="17.625, 0.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/BTDataContext/List_ChargeStandard" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0e08d0d4-1249-40f6-b505-44b527cfe7fb" absoluteBounds="17.64, 1.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5b199490-3a5d-42af-adfe-ef6f0ae07eb7" absoluteBounds="19.875, 0.75, 2, 8.6937483723958326">
+      <DataClassMoniker Name="/BTDataContext/FormBusinessTrip_Mod" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a5cb1c70-2e72-44ad-a1a7-f5215846cfc6" absoluteBounds="19.89, 1.21, 1.9700000000000002, 8.1337483723958321" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e18e8b4f-2ced-4609-bd5e-5e9e1501f582" absoluteBounds="10.25, 0.75, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/BTDataContext/V_EPS_FormInFlow" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c3c1e87f-f5a3-44c3-8aa0-5161788493a2" absoluteBounds="10.265, 1.21, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c352d855-e747-475d-ab7f-ad7df447130a" absoluteBounds="17.75, 4, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/BTDataContext/List_SysManager" />
+      <nestedChildShapes>
+        <elementListCompartment Id="49c6915e-8334-4898-8224-9b26d1eb091c" absoluteBounds="17.765, 4.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="665020b2-4094-4636-9b4c-9823fce8c668" absoluteBounds="5.5, 0.5, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/BTDataContext/List_BusinessPlan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c31755cd-938b-4a50-b25f-e24708e1aec9" absoluteBounds="5.515, 0.96, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c1aaa250-383f-4980-97e8-1476a86b201e" absoluteBounds="22.375, 0.75, 2, 4.6554182942708326">
+      <DataClassMoniker Name="/BTDataContext/List_ChargeAccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f76348a8-954a-40ac-a63b-c0caa3c88a04" absoluteBounds="22.39, 1.21, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3a2e2127-60b9-4f40-b437-52f9e16a906e" absoluteBounds="22.5, 5.875, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/BTDataContext/List_CountAccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9b9c589b-6346-4168-a980-fb5f3a54f05c" absoluteBounds="22.515, 6.335, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1f2ff244-2f86-470c-8fea-3179846c8b9c" absoluteBounds="5.375, 5, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/BTDataContext/List_DrawSalary" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4cdd718d-4163-4b6b-8f28-49184107657d" absoluteBounds="5.39, 5.46, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="15bb5f84-57a0-480b-9017-35e1df2d3e6c" absoluteBounds="5.375, 9.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/BTDataContext/Item_Currency" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4e9388d4-5c18-4ade-9fac-6697ecbbdc2e" absoluteBounds="5.39, 9.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b3b9ac69-9e60-49be-9690-1314cb81e9a4" absoluteBounds="0.5, 0.625, 2, 11.001365559895833">
+      <DataClassMoniker Name="/BTDataContext/FormBusinessTrip" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cea35fa7-4ad9-428e-ba8d-0cb0fe253373" absoluteBounds="0.515, 1.085, 1.9700000000000002, 10.441365559895832" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b56962ea-08cd-4d79-a8ca-24ffc0fe5ed1" absoluteBounds="7.75, 0.75, 2, 10.6167626953125">
+      <DataClassMoniker Name="/BTDataContext/FormBusinessAccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="44d7fd04-0ad6-4d26-b27a-71813c659f7d" absoluteBounds="7.7650000000000006, 1.21, 1.9700000000000002, 10.0567626953125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c6421d8b-725d-4076-b4be-23c7a2f71e6c" absoluteBounds="25.25, 1, 2, 2.5401025390625">
+      <DataClassMoniker Name="/BTDataContext/V_CountAccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f1ad43e6-345b-42ae-9be3-bd3d35224fdd" absoluteBounds="25.265, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c21f17f6-7676-42db-8ff8-1508a4bfa8be" absoluteBounds="15.25, 0.625, 2, 6.9630354817708326">
+      <DataClassMoniker Name="/BTDataContext/List_FlightInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bba4dc30-e934-4ef1-9d57-2fa130b5fa4a" absoluteBounds="15.265, 1.085, 1.9700000000000002, 6.403035481770833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

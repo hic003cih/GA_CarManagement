@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="IE_ProjectBudget" Class="PBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=10.56.69.55;Initial Catalog=IE_ProjectBudget;Persist Security Info=True;User ID=EnotesUser" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="IE_ProjectBudgetConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Item_BudgetCurrency" Member="Item_BudgetCurrency">
+    <Type Name="Item_BudgetCurrency">
+      <Column Name="BudgetCurrency" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="BudgetCurrencyName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Creator" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeleteFlag" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Item_BudgetFIN" Member="Item_BudgetFIN">
+    <Type Name="Item_BudgetFIN">
+      <Column Name="FactoryCode" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FactoryName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="FactoryBudgetFINID" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="FactoryBudgetFINName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Creator" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeleteFlag" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Item_BudgetType" Member="Item_BudgetType">
+    <Type Name="Item_BudgetType">
+      <Column Name="BudgetTypeCode" Type="System.String" DbType="VarChar(1) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="BudgetTypeName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Creator" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeleteFlag" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Item_StartCode" Member="Item_StartCode">
+    <Type Name="Item_StartCode">
+      <Column Name="StartCode" Type="System.String" DbType="VarChar(2) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="StartCodeName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Creator" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeleteFlag" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.List_ProjectBudget" Member="List_ProjectBudget">
+    <Type Name="List_ProjectBudget">
+      <Column Name="BudgetID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FormNo" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ProjectCode" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="BudgetType" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="OUCode" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Money" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Creator" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeleteFlag" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="ModifyMan" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Item_EndCode" Member="Item_EndCode">
+    <Type Name="Item_EndCode">
+      <Column Name="StartCode" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="EndCode" Type="System.String" DbType="VarChar(2) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EndCodeName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Creator" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeleteFlag" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_EPS_FormInFlow" Member="V_EPS_FormInFlow">
+    <Type Name="V_EPS_FormInFlow">
+      <Column Name="FormID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FormNo" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="FormType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="FormTypeName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="NodeSeq" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Form_Status" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApplyManNo" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="UpdateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ApplyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="OwnerList" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DeleteFlag" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="AgentID" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="FormUrl" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_EPS_FormEnd" Member="V_EPS_FormEnd">
+    <Type Name="V_EPS_FormEnd">
+      <Column Name="FormID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FormNo" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="FormType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="FormTypeName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="NodeSeq" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Form_Status" Type="System.String" DbType="VarChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="ApplyManNo" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="FactoryArea" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Register_Name" Type="System.String" DbType="VarChar(41)" CanBeNull="true" />
+      <Column Name="ApplyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ApplyDept" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TheOwner" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TheOwner_Name" Type="System.String" DbType="NVarChar(101)" CanBeNull="true" />
+      <Column Name="NextSeq" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DeleteFlag" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="SysID" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TableID" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="FormURL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="URL" Type="System.String" DbType="VarChar(269)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_EPS_FormResendList" Member="V_EPS_FormResendList">
+    <Type Name="V_EPS_FormResendList">
+      <Column Name="FormID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FormType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="NodeSeq" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NodeName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LastAction" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LastOwner" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="OwnerList" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="OwnerListName" Type="System.String" DbType="NVarChar(152)" CanBeNull="true" />
+      <Column Name="TheOwner" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="WFClosed" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="Expr1" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="ApplyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FormTypeName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ApplyDept" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ApplyManNo" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeleteFlag" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="FirstAgentNo" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="SecondAgentNo" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="ThirdAgentNo" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="FormUrl" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SysID" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TableID" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="AgentID" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.List_SysSignMan" Member="List_SysSignMan">
+    <Type Name="List_SysSignMan">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TableRole" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FactoryArea" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TableID" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DeleteFlag" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="DeleteBy" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DeleteOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Creator" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.List_ProjectBudget_Add" Member="List_ProjectBudget_Add">
+    <Type Name="List_ProjectBudget_Add">
+      <Column Name="BudgetID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ItemNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FormNo" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ProjectCode" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="BudgetType" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="OUCode" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Past_Money" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="This_Money" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Sec_Money" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Thi_Money" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Total_Money" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Creator" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeleteFlag" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="ModifyMan" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.List_NoticeMan" Member="List_NoticeMan">
+    <Type Name="List_NoticeMan">
+      <Column Name="NoticeManID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NoticeTypeValue" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="NoticeTypeName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="MailType" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="MailTo" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Creator" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.List_SysManager" Member="List_SysManager">
+    <Type Name="List_SysManager">
+      <Column Name="TableName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="UserID" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TableRole" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TableID" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DeleteFlag" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="DeleteBy" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DeleteOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Creator" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="AreaName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FormProjectBudget" Member="FormProjectBudget">
+    <Type Name="FormProjectBudget">
+      <Column Name="FormID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FormNo" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FormType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="ApplyManNo" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ApplyMan" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="ApplyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ApplyDept" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ApplyPhoneNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="OUCode" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CompanyName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FactoryArea" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="ProjectCode" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="StartCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EndCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="YearCode" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="ProjectType" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ProjectOwnerID" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="ProjectOwnerName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="ProjectName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Purpose" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ProjectFinDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="RFQNO" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="IsBudget" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="BudgetCurrency" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="BudgetTotal" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="BudgetDesc" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="ProjectStatus" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ProjectStatusDesc" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="BudgetReportDesc" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="BudgetTotal_Final" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="BudgetDesc_Add" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="BudgetItem_Add" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CounterSign" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CounterSign_Hide" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DeleteFlag" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedReason" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SysID" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TableID" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

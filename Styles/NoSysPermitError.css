@@ -1,0 +1,43 @@
+﻿            .page_main
+            {
+                 background-color:#F5F5F5;
+                
+            }
+            .error_content
+            {
+                width:800px;
+                height:487px;
+                background-color:#F5F5F5;
+            }
+            
+            .img_box
+            {
+                background-image:url('images/noPermitError.jpg');
+                margin-top:100px;
+                margin-bottom:auto;
+                margin-left:auto;
+                margin-right:auto;
+                height: 99px;
+                width: 183px;
+            }
+            
+            .img_box1
+            {
+                background-image:url('images/noSysPemitError.jpg');
+                margin-top:100px;
+                margin-bottom:auto;
+                margin-left:auto;
+                margin-right:auto;
+                height: 44px;
+                width: 424px;
+            }
+            
+            .error_text
+            {
+                background-color:#F6FBFE;
+                margin-bottom:auto;
+                margin-left:auto;
+                margin-right:auto;
+                width: 424px;
+                height:300px;
+                }

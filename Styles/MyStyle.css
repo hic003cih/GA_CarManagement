@@ -1,0 +1,88 @@
+﻿.table01 {
+	font-family: verdana;
+	color: #000000;
+	text-align: left;
+	margin: 0px;
+	width: 99.7%;
+	/*border: 1px gray solid;*/
+	border:1px #A7A6AA solid;
+    height:50%;	
+	border-collapse: collapse;
+}
+.table01 caption {
+	border-left: 1px solid #669999;
+    border-right: 1px solid #669999;
+    border-top: 1px solid #669999;
+text-align: left;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 5px 10px 2px;
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: #ADB9CB;
+	font-family: Trebuchet MS;
+    border-bottom-style: none;
+    border-bottom-color: inherit;
+    border-bottom-width: 0px;
+}
+.table01 th {
+	text-align: left;
+	font-size: 13px;
+	background-color: #0994D5;
+    width:12%;
+	color: #fff;
+	padding: 3px 10px 0px 5px;
+	line-height: 1.8em;
+	text-align:center;
+}
+.table01 td 
+{
+    height:30px;
+	text-decoration: none;
+	line-height: 1.8em;
+	margin:0px;  
+    padding:0px;
+	color: #2B2B2B;
+	border: 0px #fff solid;
+	font-size: 13px;
+}
+.btn  
+{
+    border:1px solid #0083f2;  
+    font-family:Arial;
+    text-align:center; 
+    margin-left:5px; 
+} 
+.btn50
+{
+    width:50px; 
+    border:1px solid #0083f2;  
+    font-family:Arial; 
+    text-align:center; 
+    margin-left:5px;   
+}
+.ddl125
+{
+    width:120px;
+}
+
+.ddl130
+{
+    width:140px;
+}
+.ddl60
+{
+    width:60px;    
+}
+
+.txt_w120{
+    /*width:120px;*/
+   
+    height:20px;
+    margin-left:3px;
+}
+
+.Emptyconditions
+{
+    font-size:14px;     
+}

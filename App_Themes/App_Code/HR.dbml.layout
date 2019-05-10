@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 11.5" name="HR">
+  <DataContextMoniker Name="/HRDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ff69594c-0a19-4d77-9e0d-d884aa37050b" absoluteBounds="0.5, 0.625, 2, 4.2708154296875">
+      <DataClassMoniker Name="/HRDataContext/V_EmpForGeneral" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6b56c1c9-88a5-4b83-8fbc-1b732da7fca0" absoluteBounds="0.51500000000000012, 1.085, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c56ebbc2-ca7a-436a-adda-6f416b98492b" absoluteBounds="3.5, 0.5, 2, 10.809064127604165">
+      <DataClassMoniker Name="/HRDataContext/FormEmployee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="51ca5348-a43c-4fda-bbbc-554735698922" absoluteBounds="3.5149999999999997, 0.96, 1.9700000000000002, 10.249064127604166" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="58df5dcf-00c4-4c41-80b8-c2ea8aa89d20" absoluteBounds="6.25, 0.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/HRDataContext/FormCapacity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fde4a897-f723-408b-8a64-af493b9394e8" absoluteBounds="6.265, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

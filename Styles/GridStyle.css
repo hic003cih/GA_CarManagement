@@ -1,0 +1,113 @@
+/*
+    FOR EXAMPLE:
+    <link rel="Stylesheet" type="text/css" href="CSS/GridStyle.css" />
+    <asp:GridView CssClass="GridViewStyle" runat="server" >
+    <FooterStyle CssClass="GridViewFooterStyle" />
+    <RowStyle CssClass="GridViewRowStyle" />   
+    <SelectedRowStyle CssClass="GridViewSelectedRowStyle" />
+    <PagerStyle CssClass="GridViewPagerStyle" />
+    <AlternatingRowStyle CssClass="GridViewAlternatingRowStyle" />
+    <HeaderStyle CssClass="GridViewHeaderStyle" />
+    </asp:GridView>
+*/
+                    .GridViewStyle
+               {   
+                    border-right: 1px solid #A7A6AA;
+                    border-bottom: 1px solid #A7A6AA;
+                    border-left: 1px solid white;
+                    border-top: 1px solid white;
+                    padding: 1px;
+                    float:left;/*­Ý®efirefox*/
+                    font-family: Arial, Helvetica, sans-serif;
+	                /*text-align: center;*/
+	                border-collapse: collapse;
+	                font-size: 13px;
+	                border: 1px #d9d9d9 solid;
+	                width: 99%;
+	                clear: both;
+	                margin: 5px 0px;
+                }
+                .GridViewStyle a
+                {
+                    color: BLUE;
+                }
+                .GridViewHeaderStyle th
+                {
+                    border: 1px solid #d9d9d9;
+	                color: #000;
+	                /*line-height: 1.8em;*/
+	                /*background-color: #ADB9CB;*/
+	                background-color: #f2f2f2;
+	                text-align: center;
+	                height:10px;
+                }
+                .GridViewHeaderStyle
+                {
+                    background-color: #0994D5;
+                    font-weight: bold;
+                    color: #FFFFFF;
+                    /*text-align:center;*/
+                    
+                }
+                
+                .GridViewFooterStyle
+                {
+                    background-color: #ADB9CB;
+                    font-weight: bold;
+                    color: #FFFFFF;
+                }
+                .GridViewRowStyle
+                {
+                    background-color: #FFFFFF;
+                    color: #333333;
+                    text-align:center;
+                    height:10px;
+                }
+                .GridViewAlternatingRowStyle
+                {
+                    background-color: #FFFFFF;
+                    color: #284775;
+                    text-align:center;
+                }
+               .GridViewRowStyle td, .GridViewAlternatingRowStyle td
+                {
+                    text-decoration: none;
+	                line-height: 1.5em;
+	                border: 0;
+	                border-bottom: 1px solid #ABB9C9;
+	                padding-left: 5px;
+	                line-height: 2em;
+	                background-color: #fff;
+	                /*white-space:nowrap;*/
+                } 
+                .GridViewSelectedRowStyle
+                {
+                    background-color: #F9FCFD;
+                    font-weight: bold;
+                    color: #333333;
+                }
+                .GridViewPagerStyle
+                {
+                    background-color: #ADB9CB;
+                    color: #333333;
+                }
+                .GridViewPagerStyle table /**//* to center the paging links*/
+                {
+                    margin: 0 auto 0 auto;
+                }
+                .GridViewPagerStyle span
+                {
+                    color:Red;
+                    font-size:15px;  
+                        
+                }
+                .GridViewPagerStyle a
+                {
+                    margin-left:5px;
+                    font-size:15px;     
+                }
+                .GridViewRowStyle1
+                {
+                    background-color: #F7F6F3;
+                    color: #333333;
+                }

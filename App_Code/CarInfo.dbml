@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="GA_CarManagerment" Class="CarInfoDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=10.56.69.55;Initial Catalog=GA_CarManagerment;User ID=EnotesUser" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="GA_CarManagermentConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.List_CarManintainRecord" Member="List_CarManintainRecord">
+    <Type Name="List_CarManintainRecord">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CarNo" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="ItemNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MaintainDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MaintainCert" Type="System.String" DbType="NChar(200)" CanBeNull="true" />
+      <Column Name="Notice" Type="System.String" DbType="NChar(500)" CanBeNull="true" />
+      <Column Name="Creator" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeleteFlag" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="DeleteBy" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="DeleteOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifyMan" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.List_Dirver" Member="List_Dirver">
+    <Type Name="List_Dirver">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FactoryArea" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="CarNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DriverName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DriverPhoneNo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Brand" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Remark" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Creator" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeleteFlag" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="DeleteBy" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="DeleteOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifyMan" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

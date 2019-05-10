@@ -1,0 +1,157 @@
+﻿
+        body
+        {
+            background-color:#F3F3E2; 
+        }
+        .SendChoose_main
+        {
+            margin-left:auto;
+            margin-right:auto;
+            height:100%;
+            width:100%;
+            margin-top:10px;
+            border:0px solid gray;
+        }
+        .SendChoose_marginTop
+        {
+             width:95%;
+             margin-top:5%;
+             margin-left:10%;
+             border:0px solid gray;
+        }
+        
+        .SendChoose_moreSign
+        {
+            font-size:13px;
+            color:#003B5A;
+            margin-top:5%;
+             width:95%;
+            margin-left:10%; 
+        }
+        
+         .SendChoose_mess
+        {
+             width:95%;
+            margin-top:20px; 
+            margin-left:10%;
+            font-size:15px;
+            font-weight:bold;
+            color:#003B5A;     
+        }
+        
+        .SendChoose_txt
+        {
+            float:left; 
+            font-size:14px;
+            color:#003B5A;  
+            width:100px;
+            margin-left:3px;
+        }
+       .SendChoose_Notify
+       {
+            font-size:15px;
+            color:#003B5A;
+       }
+       
+        #SendChoose_txtArea
+        {
+            width:62%;
+            height:80px; 
+            margin-left:5px; 
+            border:1px solid #58805f; 
+            font-size:12px;   
+        }
+        .SendChoose_txtWidth
+        {
+            text-align:center;
+            margin-left:5px;
+            width:81%;    
+            border:1px solid #58805f;
+            font-size:12px; 
+        }
+        
+        #SendChoose_DoSign
+        {
+            margin-left:65.5%;
+        }
+        #SendChoose_back
+        {
+            margin-left:10px;
+        }
+       
+       
+        #CurrentFlow
+        {
+            margin-left:40px; 
+            font-weight:bold;    
+        }
+        .SendChoose_txtNodeNameSize
+        {
+            font-size:10px;
+            color:#003B5A;
+        }
+        
+        .txtSize
+        {
+            font-size:13px;     
+        }
+        #SendChoose_MoreSignResult
+        {
+            width:285px;
+            font-size:12px;
+        }
+        .spanStyle
+        {
+            font-size:14px;
+            color:#003B5A;  
+            margin-left:3px;  
+        }
+        .redStyle
+        {
+            color:Red; 
+            font-size:12px; 
+            margin-bottom:3px;   
+        }
+                                
+         #CurrentAction
+        {
+            color:Red;     
+        }
+        
+        
+         /****Div彈出層樣式【選簽】****/
+        #faqdiv
+        {
+            position: absolute;
+            
+            width: 95%;
+            height: 90%;
+            margin-top:-20px;
+            margin-left:10px;
+            
+            z-index: 100;
+            background-color: #fff;
+            border: 1px #8FA4F5 solid;
+            padding: 1px;
+        }
+        #faqdiv h2
+        {
+            height: 25px;
+            font-size: 14px;
+            background-color: #8FA4F5;
+            position: relative;
+            /*padding-left: 10px;*/
+            line-height: 25px;
+        }
+        #faqdiv h2 a
+        {
+            position: absolute;
+            right: 5px;
+            font-size: 12px;
+            color: #FF0000;
+        }
+        #faqdiv .signChooseList
+        {
+            padding: 10px;
+        }
+        /**********************/

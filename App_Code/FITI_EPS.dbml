@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BASE" EntityNamespace="FITI_EPS" Class="FITI_EPSDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=10.97.51.22;Initial Catalog=BASE;User ID=test" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="BASEConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.V_EPS_UserRoleAuthority" Member="V_EPS_UserRoleAuthority">
+    <Type Name="V_EPS_UserRoleAuthority">
+      <Column Name="UserID" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="RoleName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SystemName" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="PageName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ElementName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BRM_USER_ROLE" Member="BRM_USER_ROLE">
+    <Type Name="BRM_USER_ROLE">
+      <Column Name="Creator" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Modifier" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Modidate" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="UserRoleID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EffectiveYN" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

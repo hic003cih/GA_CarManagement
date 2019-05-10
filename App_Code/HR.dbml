@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HR_Employee" Class="HRDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=10.56.69.55;Initial Catalog=HR_Employee;Persist Security Info=True;User ID=enotesuser" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="HR_EmployeeConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.V_EmpForGeneral" Member="V_EmpForGeneral">
+    <Type Name="V_EmpForGeneral">
+      <Column Name="UserNo" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="UserChiname" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CompanyName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Department" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SectionLevel" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DeputyLevel" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DirectorLevel" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="OUCode" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="JobTitle" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PhoneNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="InternetAddress" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SuperiorNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SuperiorCharge" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Agent_1" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Agent_2" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Agent_3" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="JobType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FormEmployee" Member="FormEmployee">
+    <Type Name="FormEmployee">
+      <Column Name="DocID" Type="System.String" DbType="VarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserNo" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserChiname" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="UserEngName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Sex" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="Birthday" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="IDCardNo" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="GroupType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CompanyName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Department" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DeptLevel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OUCode" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="UpperOU" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UpperOUCode" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="NotesID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="NotesCN" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="SuperiorNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SuperiorChargeID" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SuperiorCharge" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="RegisterDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="JobTitle" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="JobLevel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="PhoneNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="JobType" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="AgentAction" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="FormalStaff" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="IsOULeader" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="LeaveJobDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="LeaveJob" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="LeaveJobType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="InternetAddress" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Agent_1" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Agent_2" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Agent_3" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="NAgent_1" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="NAgent_2" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="NAgent_3" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Creator" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpperOUPath" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="SectionLevel" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DeputyLevel" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DirectorLevel" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Capacity" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="RegisterAdd" Type="System.String" DbType="VarChar(90)" CanBeNull="true" />
+      <Column Name="MessageAdd" Type="System.String" DbType="VarChar(90)" CanBeNull="true" />
+      <Column Name="InstancyName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="InstancyAdd" Type="System.String" DbType="VarChar(90)" CanBeNull="true" />
+      <Column Name="InstancyTel" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IsNotMarry" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FormCapacity" Member="FormCapacity">
+    <Type Name="FormCapacity">
+      <Column Name="CapacityID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CapacityName" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="AccountJobID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FormOUInfo" Member="FormOUInfo">
+    <Type Name="FormOUInfo">
+      <Column Name="OUCode" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OULevel" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="OUCHName" Type="System.String" DbType="VarChar(70)" CanBeNull="true" />
+      <Column Name="OUENName" Type="System.String" DbType="VarChar(70)" CanBeNull="true" />
+      <Column Name="UpperOUCode" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="OULeaderID" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="OULeaderName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Factory" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

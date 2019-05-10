@@ -1,0 +1,681 @@
+﻿
+@charset "utf-8";
+#header_master {
+	/*margin: 0px;*/
+    margin-left:auto ;
+    margin-right :auto ;
+	padding-top:15px;
+	/*width: 100%;*/
+    width:1100px;
+	height:80px;
+	
+}
+#header {
+	padding-top:15px;
+    margin-left:auto;
+    margin-right:auto;
+	width: 1100px;
+	height:60px;
+	text-align : center;
+}
+#header_top {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    width:1100px;
+    /*border-spacing:0;
+    padding:0;*/
+    /*text-align:center;*/
+    /*margin:auto;*/
+    font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:22pt;
+	color:#245974;
+	font-weight:bold;
+    text-align :center;
+    margin-top: 0px;
+    margin-left:15px;
+}
+.header_title {
+    height:60px;
+    /*width: 570px;*/
+    width: 505px;
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:20pt;
+	color:#245974;
+	font-weight:bold;
+    margin-top:0px;
+    margin-left:0px;
+    margin-right:200px;
+    text-align :center;
+}
+
+.header_text {
+    
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:11pt;
+	color:#666666;
+}
+
+.header_logo {
+    width:275px;
+    float:left;
+    margin-top:-10px;
+    height:45px;
+}
+.header_logout {
+    width:300px;
+    float:right;
+    clear :both;
+    margin-top:0px;
+    text-align :center;
+
+}
+.header_tab {
+    	margin: 0px;
+	padding: 0px;
+	width: 300px;
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:11pt;
+	color:#333;
+
+    /*float:right;
+    width:200px;
+    font-size:10pt;
+    text-align :right;
+    margin-top:-45px;
+    margin-right:50px;*/
+}
+
+#login {
+	margin-left: auto;
+	margin-right:auto;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear:both;
+	height:300px;
+}
+.login_text01 {
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:12pt;
+	color:#999;
+	
+}
+.login_text02 {
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:12pt;
+	color:#c16a1d;
+	cursor :pointer;
+    text-decoration:underline;
+}
+.login_text03 {
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:12pt;
+	color:#333;
+	
+}
+.login_text05 {
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:12pt;
+	color:#fff;
+	background-image: url(../ehr_images/login_btn.png);
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 300px;
+	/*padding-top: -3px;*/
+    cursor :pointer;
+	
+}
+.login_text05:hover {
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:12pt;
+	color:#fff;
+	background-image: url(../ehr_images/login_btn_press.png);
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 300px;
+	padding-top: 3px;
+	
+}
+
+.login_text06 {
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:11pt;
+	color:#666;
+	
+}
+.login_text07 {
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:12pt;
+	color:#fff;
+	background-image: url(../ehr_images/login_btn.png);
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 145px;
+	/*padding-top: -3px;*/
+    cursor :pointer;
+	
+}
+.login_text07:hover {
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:12pt;
+	color:#fff;
+	background-image: url(../ehr_images/login_btn_press.png);
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 145px;
+	padding-top: 3px;
+	
+}
+
+#footer {
+	margin: 0px;
+	clear: both;
+	width: 100%;
+
+}
+.footer_text {
+	font-size:11pt;
+	color:#666666;
+	padding-top:20px;
+	
+}
+
+#tabx4 {
+	margin-left: auto;
+	margin-right:auto;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear:both;
+	height:450px;
+}
+
+.btn_index {
+	background-image:url(../ehr_images/btn.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+.btn_index:hover {
+	background-image:url(../ehr_images/btn_press.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+.btn_title {
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #245974;
+	padding-left:5px;
+	
+}
+.btn_text {
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size: 10.5pt;
+	color: #666;
+	padding-left:5px;
+}
+
+.form_select {
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size: 12pt;
+	color: #eb6100;
+    margin-top:-10px;
+    margin-left:15px;
+    width: 1100px;
+    text-align :center;
+    margin-bottom:5px;
+	/*padding:2px;*/
+	
+}
+.form_btn_check{
+	font-size:11pt;
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	color:#333;
+	line-height:15pt;
+	width:46px;
+	/*padding-left:7px;*/
+	
+}
+#menu_frame {
+	margin-top: 33px;
+	width: 100%;
+	height:32px;
+	background-color: #245974;
+}
+#menu {
+    /*top:150px;*/
+	padding: 0px;
+	width: 1100px;
+	position: absolute;
+	right: 0px;
+	left: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	background-color: #245974;
+    top: 101px;
+}
+#menu ul {
+	padding: 0px;
+	display: inline-block;
+	margin:0px;
+	height:32px;
+}
+#menu ul li {
+	display:block;
+	float:left;
+	width:145px;
+	height:32px;
+	list-style-type:none;
+	background-color:#245974;
+	
+}
+#menu ul li:hover{
+	display:block;
+	float:left;
+	width:145px;
+	height:32px;
+	list-style-type:none;
+	background-color:#377ca0;
+}
+#menu ul li a {
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size: 11pt;
+	color: #ffffff;
+	line-height:22pt;
+	text-decoration:none;
+	
+}
+#menu ul li ul{
+	visibility:hidden;
+	z-index:2000;
+}
+
+#menu ul li:hover ul{
+	visibility:visible;
+	z-index:2000;
+}
+#form_header {
+	margin-top: 0px;
+	margin-bottom:0px;
+	padding: 0px;
+	width: 100%;
+	background-color:#F8F8F8;
+    height:45px;
+    text-align:center;
+}
+/*Form List For New Format*/
+#list_Title {
+
+}
+ol, ul {
+list-style: none;
+}
+.tb01 {
+	width:1100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.tb02 {
+	width:1100px;
+    margin-top:-4px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.tb03 {
+	width:1100px;
+	margin-right: auto;
+	margin-left: auto;
+	table-layout:fixed;
+}
+/* gridview*/
+.tb04 {
+	width:1100px;
+    margin-top:-4px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.tb05 {
+	width:1100px;
+    margin-top:-4px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.tb0_none {
+	width:1100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.tb01 caption {
+	font-size:12pt;
+	line-height:24pt;
+	color:#ffffff;
+	font-weight:bold;
+	background-color:#4495bf;
+	text-align:center;
+	padding-left:10px;
+	padding-top:0px;
+	padding-bottom:5px;	
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	}
+.tb02 th{
+	font-size:11pt;
+	color:#005a7c;
+	font-weight:bold;
+	line-height:20pt;
+	text-align:left;
+	padding-bottom:4px;
+    padding-left:15px; 
+    background-color:#e6e6e6;   
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+}
+.tb02 td {
+	font-size:11pt;
+	color:#333;
+	line-height:20pt;
+	text-align:left;
+	padding-bottom:4px;  
+    padding-left:15px; 
+    border-left:solid 1px #ccc;    
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+}
+.tb02 td a{
+	font-size:11pt;
+	color:#1176AB;
+	line-height:20pt;
+	text-align:center;
+	padding-bottom:4px;
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+}
+.tb02 tr:hover /*滑鼠移動時出現顏色*/
+{
+    background-color:#c0d3da;
+}
+.tb02 tbody tr:nth-child(even) td, 
+.tb02 tbody tr:nth-child(even) th {background-color:#fff;} 
+.tb02 tbody tr:nth-child(odd) th, 
+.tb02 tbody tr:nth-child(odd) td {background-color:#e6e6e6;}
+
+
+.tb03 th{
+	font-size:11pt;
+	color:#1176AB;
+	background-color:#e6e6e6;
+	font-weight:bold;
+	line-height:30pt;
+	text-align:left;
+	padding-left:55px;
+	width:80px;
+    border-bottom:solid 1px #ccc;
+    border-left:solid 1px #ccc;
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+}
+.tb03 td {
+	font-size:11pt;
+	color:#333;
+	background-color:#fff;
+	line-height:30pt;
+	text-align:left;
+	padding-left:15px;
+    border-bottom:solid 1px #ccc;
+    border-right:solid 1px #ccc;
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	vertical-align:sub;
+}
+.tb03 td ul{
+	margin:0;
+	padding:0;
+}
+.tb03 td ul li{
+	background: url(../ehr_images/List_arrow15.png) no-repeat 5px 13px;
+	width:135px;
+	float:left;
+	height:40px;
+	}
+.tb03 td ul li a{
+	font-size:11pt;
+	color:#1176AB;
+	line-height:30pt;
+	text-align:left;
+	padding-left:25px;
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	vertical-align: central;
+}
+.tb04 th{
+	font-size:11pt;
+	color:#005a7c;
+	font-weight:bold;
+	padding-top:8px;
+	padding-bottom:9px;
+	padding-left:10px;
+	background-color:#c0d3da;
+	text-align: center;
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+}
+
+.tb04 td {
+	font-size:11pt;
+	color:#333;
+	padding-top:8px;
+	padding-bottom:9px;
+	padding-left:10px;
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+}
+
+.tb04 tbody tr:nth-child(even) td, 
+.tb04 tbody tr:nth-child(even) td {background-color:#f8f8f8;} 
+.tb04 tbody tr:nth-child(odd) td, 
+.tb04 tbody tr:nth-child(odd) td {background-color:#eee;}
+.btn04 {
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:10.5pt;
+	color:#fff;
+	background:#0a6091;
+	width:120px;
+	line-height:19pt;
+    cursor :pointer;
+	border:0;
+	border-radius:1px 1px 1px 1px;	
+	letter-spacing:1px;
+	-webkit-appearance: none;
+}
+.tb05 th{
+	font-size:11pt;
+	color:#005a7c;
+	font-weight:bold;
+	padding-top:8px;
+	padding-bottom:9px;
+	padding-left:10px;
+	background-color:#94C1D2;
+	text-align: center;
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+}
+.tb05 td {
+	font-size:11pt;
+	color:#333;
+	padding-top:8px;
+	padding-bottom:9px;
+	padding-left:10px;
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+}
+.tb0_none th{
+	font-size:11pt;
+	color:#ff0000;
+	font-weight:bold;
+	line-height:20pt;
+	text-align:center;
+	padding-left:5px;
+	font-family: "\5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+}
+#footer {
+	margin: 0px;
+	clear: both;
+	width: 100%;
+
+}
+.footer_text {
+	font-size:11pt;
+	color:#666666;
+	padding-top:20px;
+	
+}
+/*Form List ----------------------------------------------*/
+
+table.list {
+	border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	font-size: 20px;
+	border: 1px #4495bf solid;
+}
+table.list th {
+	color: #fff;
+	line-height: 2em;
+	background-color: #4495bf;
+	text-align: left;
+	padding: 0 0 0 15px;
+	font-size: 16px;
+}
+table.list td 
+{
+    /*font-size: 14px;*/
+	text-decoration: none;
+    text-align:left;
+	border-bottom: 1px #808080 dotted;
+	padding: 2px 0 2px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*===============Master 下拉 CSS=====================*/
+/*header*/
+#header0_frame {
+   width:100%;
+}
+.header0 {
+   width:1100px;
+   margin-left:auto;
+   margin-right:auto;
+   margin-bottom:15px;
+   margin-top:20px;
+}
+.header0 th {
+	FONT-FAMILY: "微軟正黑體, 新細明體", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:24pt;
+	line-height:36pt;
+	color:#245974;
+	font-weight:bold;
+}
+.header0 td {
+	FONT-FAMILY: "微軟正黑體, 新細明體", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:11pt;
+	line-height:20pt;
+	color:#666;
+}
+.header0 td a {
+	FONT-FAMILY: "微軟正黑體, 新細明體", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:11pt;
+	line-height:20pt;
+	color:#177cb5;
+	text-decoration:underline;
+}
+
+/*menu*/
+
+.menu0_frame {
+   width:100%;
+   background-color:#245974;
+   display:inline-block;
+   text-align:center;
+  }
+.menu0 {
+   width:1100px;
+   margin-left:auto;
+   margin-right:auto;
+   	right: 0px;
+	left: 0px;
+   position:relative;
+   text-align:center;
+   background-color:#245974;
+}
+.menu0 ul {
+	margin:0;
+	padding:0;
+    display:inline-block;
+    background-color:#245974;
+}
+.menu0 ul li {
+	display:block;
+	width:155px;
+	float:left;
+	height:32px;
+	text-align:center;
+	line-height:22pt;
+    background-color:#245974;
+}
+.menu0 ul li:hover {
+	display:block;
+	width:155px;
+	float:left;
+	height:32px;
+	text-align:center;
+	line-height:22pt;
+    background-color:#3c6a82;
+}
+.menu0 ul li a {
+	FONT-FAMILY: "微軟正黑體, 新細明體", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:11pt;
+	line-height:22pt;
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.menu0 ul li ul{
+	margin-top:3px;
+	padding:0;
+}
+.menu0 ul li ul li {
+	display:block;
+	width:155px;
+	float:left;
+	height:32px;
+	text-align:center;
+	line-height:20pt;
+    background-color:#f8f8f8;
+	border-left:solid 1px #245974;
+	border-right:solid 1px #245974;
+	border-bottom:solid 1px #245974;
+}
+.menu0 ul li ul li:hover {
+	display:block;
+	width:155px;
+	float:left;
+	height:32px;
+	text-align:center;
+	line-height:20pt;
+    background-color:#e9e9e9;
+	border-left:solid 1px #245974;
+	border-right:solid 1px #245974;
+	border-bottom:solid 1px #245974;
+}
+.menu0 ul li ul li a {
+	FONT-FAMILY: "微軟正黑體, 新細明體", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:11pt;
+	line-height:22pt;
+	color:#245974;
+	text-decoration:none;
+}
+.menu0 ul li ul li a:hover {
+	FONT-FAMILY: "微軟正黑體, 新細明體", "微軟正黑體", Arial, Helvetica, sans-serif, Roboto;
+	font-size:11pt;
+	line-height:22pt;
+	color:#095b60;
+	text-decoration:none;
+}
+.menu0 ul li ul{
+	visibility:hidden;
+	z-index:2000;
+}
+.menu0 ul li:hover ul{
+	visibility:visible;
+	z-index:2000;
+}

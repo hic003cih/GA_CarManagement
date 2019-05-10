@@ -1,0 +1,184 @@
+﻿.form_button01 
+{
+        border: 0 none transparent;
+            float:left;
+     
+	        color: #0033CC;
+	background-image: url('http://localhost:12606/EPS/Styles/images/bt01.png');
+	        background-repeat: no-repeat;
+	        cursor: pointer;
+	        margin: auto 10px auto 0px;
+	        text-align:center;<a href="FormCustomer.aspx">FormCustomer.aspx</a>
+
+	        letter-spacing: 1px;
+	        font-weight: bold;
+	        background-color: Transparent;
+	        vertical-align: bottom;
+	        width: 53px;
+	        height: 33px;
+
+}
+        .style9
+        {
+            text-align: left;
+        }
+        .style10
+        {
+            text-decoration: left;
+            line-height: 2.5em;
+            padding: 3px 10px 0 5px;
+            color: #003b5a;
+            border: 1px #FFF solid;
+            font-size: 12px;
+            background-color: #dde0ec;
+            text-align: center;
+            width: 16%;
+            height: 34px;
+        }
+                
+        .style17
+        {
+}
+        .style19
+        {
+            width: 125px;
+        }
+        
+        .style28
+        {
+        }
+        .style31
+        {
+        }
+        
+        .style35
+        {
+        }
+        .style44
+        {
+}
+        
+        .style45
+        {
+            height: 31px;
+        }
+        .style49
+        {
+            height: 31px;
+            }
+        .style51
+        {
+            height: 31px;
+            width: 77px;
+        }
+        .style54
+        {
+            height: 31px;
+            width: 130px;
+        }
+        .style55
+        {
+        }
+        .style56
+        {
+}
+        .style57
+        {
+            height: 31px;
+            width: 151px;
+        }
+        .style58
+        {
+            width: 166px;
+        }
+        .style59
+        {
+            height: 31px;
+            width: 166px;
+        }
+        
+        .style62
+        {
+            width: 134px;
+        }
+        .style63
+        {
+            width: 135px;
+        }
+                
+        .style68
+        {
+        }
+        .style70
+        {
+            width: 60px;
+        }
+                
+        .style83
+        {
+            width: 12%;
+        }
+        
+        .style84
+        {
+            width: 107px;
+        }
+        
+        .style85
+        {
+            height: 34px;
+        }
+        
+        .auto-style1 {
+            width: 81px;
+        }
+        .auto-style2 {
+            width: 94px;
+        }
+        .auto-style4 {
+            width: 99px;
+        }
+        .auto-style6 {
+            width: 97px;
+        }
+        .auto-style7 {
+            width: 102px;
+        }
+        .auto-style8 {
+            width: 58px;
+        }
+        
+        #Approve_txtNofity
+        {
+            height:50px; 
+        }
+        .Approve_txtWidth
+        {
+            text-align:left;
+            margin-left:5px;
+            width:62%; 
+            border:1px solid #58805f;
+            font-size:12px;
+        }
+                
+        .style86
+        {
+            width: 125px;
+            height: 34px;
+        }
+        .style87
+        {
+            height: 34px;
+        }
+                        
+        .style88
+        {
+            width: 579px;
+        }
+        
+        .style_banner01{
+         position: fixed;
+         top: 0px;
+          z-index: 999999; 
+          width:1100px;  
+         }

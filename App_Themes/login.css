@@ -1,0 +1,150 @@
+﻿body.login {
+	margin: 0px;
+	background-color: #fff;
+	font-family: Arial;
+	background-position: center top;
+	background-image: url(images/login/login_bg.jpg);
+	background-repeat: no-repeat;
+}
+#form1{
+   	margin: 0px;
+	background-color: #fff;
+	font-family: Arial;
+	background-position: center top;
+	background-image: url(images/login/login_bg.jpg);
+	background-repeat: no-repeat; 
+}
+#login {
+	width: 250px;
+	height: 220px;
+	margin: 0px auto;
+	padding: 120px 0 0 0px;
+	background-image: url(images/login/login_box.png);
+	background-position: 0px 80px;
+	background-repeat: no-repeat;
+}
+#login table {
+	padding: 0 0 0 0px;
+	width: 200px;
+}
+#login table td {
+	vertical-align: top;
+	text-align: left;
+	padding: 3px 2px 0 2px;
+}
+#login input {
+	font-size: 13px;
+	background-color: transparent;
+	border: 0;
+	margin: 6px 1px 6px 0;
+	padding: 6px 0 6px 50px;
+	color: #fff;
+	font-family: Arial;
+}
+.rem {
+	display: inline-block;
+	padding: 0 0;
+	margin: 0;
+	color: black;
+	font-size: 13px;
+	text-align: left;
+	line-height: 20px;
+	vertical-align: bottom;
+	float: left;
+}
+.login-button {
+	background-image: url(images/button/login-button.png);
+	color: #006184;
+	width: 67px;
+	height: 27px;
+	cursor: pointer;
+	float: right;
+}
+.forget-button {
+	background-image: url(images/button/forget-button.png);
+	color: #006184;
+	width: 120px;
+	height: 27px;
+	cursor: pointer;
+	float: right;
+}
+.modify-button {
+	background-image: url(images/button/modify-button.png);
+	color: #006184;
+	width: 120px;
+	height: 27px;
+	cursor: pointer;
+	float: left;
+}
+
+/*Modify ----------------------------------------------*/
+body.modi {
+	margin: 0px;
+	background-color: #fff;
+	font-family: Arial;
+	background-position: center top;
+	background-image: url(images/login/login_bg.jpg);
+	background-repeat: no-repeat;
+}
+#modi {
+	width: 310px;
+	height: 220px;
+	margin: 0px auto;
+	padding: 120px 0 0 0px;
+	background-image: url(images/login/modify-bg.png);
+	background-position: 0px 80px;
+	background-repeat: no-repeat;
+}
+#modi table {
+	padding: 0 0 0 0px;
+	width: 200px;
+}
+#modi table td {
+	vertical-align: top;
+	text-align: left;
+	padding: 3px 10px 0 5px;
+}
+#modi input {
+	font-size: 13px;
+	background-color: transparent;
+	border: 0;
+	margin: 5px 0 12px;
+	padding: 0 0 0 110px;
+	color: #fff;
+	font-family: Arial;
+}
+.submit-button {
+	background-image: url(images/button/submit-button.png);
+	color: #006184;
+	width: 67px;
+	height: 27px;
+	cursor: pointer;
+	margin: 0 0 0 0;
+	float: right;
+}
+.cancel-button {
+	background-image: url(images/button/cancel-button.png);
+	color: #006184;
+	width: 67px;
+	height: 27px;
+	cursor: pointer;
+	margin: 0 0 0 0;
+	float: right;
+}
+#contact {
+	margin: 0 auto;
+	width: 600px;
+	font-size: 13px;
+}
+#contact p {
+	margin: 0;
+	padding: 0;
+	line-height: 22px;
+}
+#copyright {
+	color: #000;
+	font-size: 13px;
+	margin: 180px auto 10px;
+	width: 360px;
+	text-align: center;
+}

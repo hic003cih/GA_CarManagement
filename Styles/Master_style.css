@@ -1,0 +1,958 @@
+body
+{
+/*background:url(images/bg.gif) repeat-y center #FFFFFF;
+background-color:#fff;
+padding:0; font-family: Arial, Helvetica, sans-serif;
+margin:0px auto auto auto;
+color:#424849;
+font-size:12px;*/
+/*background:url(images/bg.gif) repeat-y center #FFFFFF;*/
+background:#FFFFFF;
+margin:auto;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size:12px;
+color:#333333;
+}
+#top_banner{
+width:930px;
+height:50px;
+background:url(images/banner.jpg) no-repeat center;
+}
+#main_container{
+width:930px;
+height:275px;
+margin:auto;
+padding:0px;
+background:url(images/banner.jpg) no-repeat center;
+}
+#header{
+width:930px;
+height:110px;
+/*background-color:#05619b;*/
+margin:auto;
+}
+#logo{
+float:left;
+/*display :inline;*/
+width:150px;
+height:80px;
+padding:0px 0 0 35px;
+}
+.hrighttop {
+    width: 200px;
+    margin: 0 2px 0 0; 
+    padding: 0 8px 2px 0; 
+    float:right; 
+    text-align: right;
+}
+.banner_adds{
+width:930px;
+height:82px;
+background:url(images/banner.jpg) no-repeat center;
+}
+.main_page
+{
+  width:930px;
+  height:auto;  
+}
+.login{
+float:right;
+width:200px;
+padding:8px 0 0 0;
+}
+#center_banner{
+width:930px;
+height:150px;
+background:url(images/pic2.jpg) no-repeat center;
+}
+.system_title{
+    text-align:center;
+    padding:20px;
+    font-size:25px;
+    color:#245974;
+    /*color:#6C0008;*/    
+    font-weight: bold;    
+}
+.system_apnotes{
+     float:right;
+    /*text-align:right;*/
+    /*height:1px;
+    padding:30px;*/
+    font-size:13px;
+    color:#DD5246;    
+    font-weight: bold;
+    width: 330px;
+    /*margin-left: 327px;*/
+}
+.system_ap{
+    float:right;
+    color: #DD5246;
+    padding:0px 0 0 0px;
+    width:330px;
+    font-weight: bold;  
+}
+h1{
+font-size:20px;
+color:#6C0008;
+padding:5px;
+margin:0px;
+padding:3px;
+}
+h2{
+font-size:13px;
+color:#666666;
+margin:0px;
+padding:3px;
+}
+h3{
+font-size:14px;
+color:#666666;
+margin:0px;
+padding:3px;
+}
+h4{
+font-size:12px;
+color: #CE6700;
+/*margin:0px 0px 0px 600px;*/
+padding:0px;
+font-weight:normal;
+}
+.clear {
+clear:both;
+overflow:hidden;
+height:4px;
+}
+p{
+font-size:11px;
+text-align:justify;
+padding:2px;
+margin:0px;
+}
+p.proposal_text{
+width:170px;
+font-size:11px;
+text-align:justify;
+padding:15px 0 0 15px;
+margin:0px;
+}
+img.img_left{
+float:left;
+padding:0px 8px 8px 0px;
+}
+img.img_right{
+float:right;
+padding:0px 8px 8px 8px;
+}
+img.img_thumb{
+float:left;
+padding:10px;
+}
+img.img_big_pic{
+padding:4px;
+border:1px #CCCCCC solid;
+}
+/*---------------- menu tab----------------------*/
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/final_drop3.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+/* style the outer div to give it width */
+.menu {font-size:11px;
+       padding:0px; 
+       float:left; 
+       width:600px;}
+
+/* remove all the bullets, borders and padding from the default list styling */
+.menu ul {padding:0;
+          margin:0;
+          list-style-type:none; 
+          height:28px;           
+          /*text-shadow: 0px 1px 0px #EBEBEB;
+          background:#267cb2;*/
+         /*background:#EBEBEB; /* 下拉*/
+          }
+
+/* style the sub-level lists */
+.menu ul ul {width: auto;}
+
+/* float the top list items to make it horizontal and a relative positon so that you can control the dropdown menu positon */
+.menu ul li {float:left;
+             height:28px;
+             line-height:28px;
+             
+             }
+
+/* style the sub level list items */
+.menu ul ul li {display:block;
+                width: auto;
+                height:auto;
+                position:relative;
+                line-height:1em; 
+                /*border-bottom:1px #2384BF solid;  */
+                border-bottom:1px #033649 solid;
+                }
+
+/* style the links for the top level */
+.menu a, .menu a:visited {display:block;
+                          float:left;
+                          height:100%;   
+                          /*font-family: 'GnuolaneRegular';*/
+                          font-size: 12px;                                     
+                          color:#033649 ; /*  #fff  文字顏色 */
+                          font-weight: bold;
+                          /*font-weight: normal;
+                          text-transform: uppercase;
+                          letter-spacing: 1px;*/
+                          /*text-shadow: 0px 1px 0px #EBEBEB;*/
+                           /*background:#267cb2;
+                           background:#033649;*/
+                          padding:0 21px 0 17px;}
+.menu a.current
+    {
+   background:#3da1e0 ;
+   
+    /* background:#033649;*/
+    }
+/* style the sub level links */
+.menu ul ul a, .menu ul ul a:visited {display:block;
+                                        /*background:#267cb2; */
+                                     background:#033649 url(/images/submenu_shadow.png) no-repeat bottom center;  
+                                      /*color:#033649;         #fff  文字顏色 */
+                                      color:#fff;
+                                      /*font-weight: normal;
+                                      text-transform: uppercase;
+                                      letter-spacing: 1px;
+                                      text-shadow: 0px 1px 0px #EBEBEB;*/
+                                      width:12em;
+                                      height:100%;
+                                      line-height:1em; 
+                                      padding:0.5em 1em;}
+.menu ul table ul a, .menu ul table ul a:visited  {width:14em; 
+                                                   width:12em;}
+
+
+/* style the table so that it takes no part in the layout - required for IE to work */
+.menu table {position:absolute; 
+             left:0; 
+             top:0; 
+             font-size:1em;
+              z-index:-1;}
+.menu ul ul table {left:-1px;}
+.menu ul ul table ul.left {margin-left:2px;}
+
+.menu li:hover {position:relative;}
+* html .menu a:hover {position:relative;}
+
+/* style the third level background */
+.menu ul ul ul a, .menu ul ul ul a:visited 
+    {
+     /*background:#3da1e0; */
+    background:#033649;
+    }
+/* style the fourth level background */
+.menu ul ul ul ul a, .menu ul ul ul ul a:visited 
+    {
+      /*background:#3da1e0; */
+    background:#033649;
+     }
+/* style the sub level 1 background */
+.menu ul :hover a.sub1 
+    {
+      /*background:#3da1e0; */
+    background:#033649;
+     }
+/* style the sub level 2 background */
+.menu ul ul :hover a.sub2
+    {
+     /*background:#3da1e0; */
+    background:#033649;
+     }
+
+/* style the level hovers */
+/* first */
+.menu a:hover {color:#fff;
+                /*background:#3da1e0; */
+                background:#033649;
+               }
+.menu :hover > a {color:#fff;
+                   /*background:#3da1e0; */
+                background:#033649;
+                 }
+/* second */
+.menu ul ul a:hover{color:#fff;
+                     /*background:#3da1e0; */
+                    background:#033649;
+                    }
+.menu ul ul :hover > a {color:#fff;
+                         /*background:#3da1e0; */
+                        background:#033649;
+                        }
+/* third */
+.menu ul ul ul a:hover 
+    {
+       /*background:#3da1e0; */
+    background:#033649;
+      }
+.menu ul ul ul :hover > a 
+    {
+     /*background:#3da1e0; */
+    background:#033649;
+    }
+/* fourth */
+.menu ul ul ul ul a:hover 
+{
+    background:#eee;
+  }
+
+
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+.menu ul ul {visibility:hidden;
+             position:absolute;
+             height:0;
+             top:28px;
+             left:0;
+             width:14em;}
+
+/* position the third level flyout menu */
+.menu ul ul ul{left:14em;
+               top:0;
+               width:14em;}
+
+/* position the third level flyout menu for a left flyout */
+.menu ul ul ul.left {left:-14em;}
+
+
+/* make the second level visible when hover on first level list OR link */
+.menu ul li:hover ul, .menu ul a:hover ul {visibility:visible; 
+                                           height:auto; 
+                                           padding-bottom:3em; 
+                                           background:transparent url(images/trans.gif);}
+/* keep the third level hidden when you hover on first level list OR link */
+.menu ul :hover ul ul{visibility:hidden;}
+
+/* keep the fourth level hidden when you hover on second level list OR link */
+.menu ul :hover ul :hover ul ul{visibility:hidden;}
+
+/* make the third level visible when you hover over second level list OR link */
+.menu ul :hover ul :hover ul{visibility:visible;}
+
+/* make the fourth level visible when you hover over third level list OR link */
+.menu ul :hover ul :hover ul :hover ul {visibility:visible;}
+
+/*------------------------------main content-----------------------*/
+#main_content{
+width:930px;
+margin:auto;
+clear:both;
+background-color:#FFFFFF;
+}
+/*------------------------middle_content-----------*/
+.column1{
+width:257px;
+float:left;
+margin:0px;
+padding:10px 10px 10px 5px;
+}
+.column2{
+width:340px;
+float:left;
+margin:0px;
+padding:10px 5px 10px 5px;
+}
+.column3{
+width:320px;
+float:left;
+margin:0px;
+padding:10px 10px 10px 5px;
+}
+.column4{
+width:690px;
+float:left;
+margin:0px;
+padding:10px 0px 10px 5px;
+}
+.left_box{
+width:257px;
+height:auto;
+float:left;
+padding-bottom:10px;
+}
+.top_left_box{
+width:257px;
+height:10px;
+float:left;
+background:url(images/top_box_bg.gif) no-repeat center;
+}
+.center_left_box{
+width:257px;
+height: auto;
+float:left;
+background:url(images/center_box_bg.gif) repeat-y;
+}
+.bottom_left_box{
+width:257px;
+height:10px;
+float:left;
+background:url(images/bottom_box_bg.gif) no-repeat center;
+}
+.box_title{
+width:257px;
+text-align:center;
+font-size:18px;
+color:#615357;
+padding:5px 0 5px 0;
+}
+.box_title span{
+font-weight:bold;
+color:#d8325d;
+}
+
+.main_text_box{
+padding:5px;
+}
+.proposal{
+width:287px;
+height:85px;
+background:url(images/proposal_box.gif) no-repeat center;
+background-position:0px 0px;
+margin-left:15px;
+margin-top:15px;
+}
+.title{
+background-color:#385870;
+text-align:left;
+width:670px;
+padding:5px 5px 5px 20px;
+color:#FFFFFF;
+font-weight:bold;
+}
+.small_title{
+background-color:#385870;
+text-align:left;
+width:100%;
+padding:5px 5px 5px 15px;
+color:#FFFFFF;
+font-weight:bold;
+}
+.title2{
+background-color:#eef1f3;
+text-align:left;
+width:300px;
+padding:5px 5px 5px 15px;
+color:#d8325d;
+font-weight:bold;
+margin-left:5px;
+}
+
+/*-------------------details list----------------*/
+.details_list{
+padding:10px;
+}
+.details_list ul{
+text-decoration:none;
+list-style:none;
+margin:0px;
+padding:0px;
+}
+.details_list ul li{
+padding:5px 5px 5px 25px;
+background:url(images/bullet.gif) no-repeat left;
+color:#333333;
+}
+.details_list ul li span{
+color:#0464a1;
+}
+.button{
+width:139px;
+height:30px;
+background:url(images/blank_button.gif) no-repeat center;
+text-align:center;
+line-height:30px;
+font-weight:bold;
+font-size:13px;
+}
+.button a{
+text-decoration:none;
+color:#d8325d;
+}
+/*---------------offer_box----------------------*/
+.offer_box{
+width:320px;
+height:106px;
+background-color:#f3f5f6;
+padding:10px;
+margin:10px 0px 10px 0px;
+}
+.offer_box_wide{
+width:310px;
+height:106px;
+float:left;
+background-color:#f3f5f6;
+padding:10px;
+margin:7px;
+}
+.offer_box_wide_style1{
+width:670px;
+height:106px;
+float:left;
+background-color:#f3f5f6;
+padding:7px;
+margin:5px;
+}
+.offer_info{
+padding:5px;
+}
+.offer_info span{
+font-weight:bold;
+color:#d8325d;
+}
+p.offer{
+text-align:justify;
+font-size:10px;
+}
+.more{
+float:right;
+padding:3px;
+}
+.more a{
+color:#d8325d;
+}
+.more a:hover{
+text-decoration:none;
+}
+.big_pic{
+width:340px;
+text-align:center;
+padding:5px 0 5px 0;
+}
+.pictures_thumbs{
+width:300px;
+padding-left:40px;
+}
+/*------------------table style---------------*/
+td{
+text-align:center;
+padding:5px;
+border-bottom:2px #fff solid;
+}
+th{
+background-color: #333333;
+padding:5px;
+color:#FFFFFF;
+}
+tr.color1{
+background-color:#F3F5F6;
+}
+
+
+/*-----------------form style--------------------*/
+.form{
+width:257px;
+text-align:center;
+color:#615357;
+padding:5px 0 5px 0;
+}
+.form_row{
+float:left;
+width:257px;
+text-align:center;
+padding:3px 0 3px 0;
+}
+label.left{
+float:left;
+width:70px;
+padding-top:3px;
+text-align:right;
+}
+label.left_long{
+float:left;
+width:90px;
+padding-top:3px;
+text-align:right;
+}
+input.form_input{
+border: 1px solid #C8D2D9;
+background-color:#FFFFFF;
+margin:0px;
+width:150px;
+float:left;
+margin-left:10px;
+}
+.contact_information{
+font-size:10px;
+color:#385870;
+text-align:left;
+padding-left:20px;
+}
+.contact_information span{
+color:#d8325d;
+}
+
+
+/*---------------------pagination-----------------------------*/
+
+div.pagination {
+	padding:5px;
+	margin:5px;
+	text-align:center;
+	float:left;
+	font-size:10px;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin-right: 2px;
+	border: 1px solid #ddd;
+	
+	text-decoration: none; 
+	color: #d8325d;
+}
+div.pagination a:hover, div.pagination a:active {
+	border:1px solid #ddd;
+	color: #fff;
+	background-color: #d8325d;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin-right: 2px;
+	border: 1px solid #ddd;
+	font-weight: bold;
+	background-color: #d8325d;
+	color: #FFF;
+}
+div.pagination span.disabled {
+	padding: 2px 5px 2px 5px;
+	margin-right: 2px;
+	border: 1px solid #ddd;
+	color: #ccc;
+}
+/*-----------------------contact------------------------*/
+.contact_tab{
+width:670px;
+height: auto;
+float:left;
+background-color:#f3f5f6;
+padding:8px;
+margin:5px 5px 5px 0px;
+}
+.form_contact{
+width:357px;
+float:left;
+text-align:center;
+color:#615357;
+padding:5px 0 5px 0;
+}
+.location_contact{
+width:250px;
+float:left;
+padding:15px;
+}
+.form_row_contact{
+float:left;
+width:357px;
+text-align:center;
+padding:3px 0 3px 0;
+}
+input.form_input_contact{
+border: 1px solid #C8D2D9;
+background-color:#FFFFFF;
+margin:0px;
+width:250px;
+float:left;
+margin-left:10px;
+}
+select.form_select{
+border: 1px solid #C8D2D9;
+background-color:#FFFFFF;
+margin:0px;
+width:250px;
+float:left;
+margin-left:10px;
+height:20px;
+}
+textarea{
+border: 1px solid #C8D2D9;
+background-color:#FFFFFF;
+margin:0px;
+width:250px;
+height:80px;
+float:left;
+margin-left:10px;
+}
+
+
+
+/*-------------------footer------------------------*/
+#footer{
+/*width:930px;
+height:41px;
+clear:both;
+font-size:11px;
+background-color:#f2efef;
+ border-top:1px #eeabbd dashed; 
+/*margin:auto;*/
+/*margin-bottom :10px;*/
+width:930px;
+height:70px;
+clear:both;
+background-color:#D7D8D2;
+}
+ul.footer_menu {
+list-style:none; float:right; display:block; width:650px;
+margin:0px; padding:9px 20px 0 0px;
+}
+
+ul.footer_menu li {
+display:inline; font-size:11px;}
+
+a.nav_footer:link, a.nav_footer:visited {
+display:block; float:left; padding:5px 6px 5px 10px; margin:0; 
+text-decoration:none; color:#2F2626;}
+
+a.nav_footer:hover {
+display:block; float:left; padding:5px 6px 5px 10px; margin:0;
+text-decoration:underline; color:#2F2626;}
+
+a.nav_footer:active {
+display:block; float:left; padding:5px 6px 5px 10px; margin:0;
+text-decoration:none;  color:#2F2626;}
+
+#copyrights{
+width:350px;
+color: #666666; 
+font-size:10px;
+float:left;
+padding:10px;
+}
+#center_banner_content{
+width:400px;
+height:auto;
+float:left;
+padding:15px 0 0 20px;
+}
+#learn_more{
+width:400px;
+height:50px;
+clear:both;
+float:left;
+padding-top:10px;
+margin:70px 0px 0px 165px;
+}
+#learn_more a{
+padding:6px;
+margin:0 0 0 80px;
+text-decoration:none;
+color:#000000;
+font-size:12px;
+border:1px  #CCCCCC solid;
+}
+#learn_more a:hover{
+padding:6px;
+margin:0 0 0 80px;
+color: #666666;
+border:1px  #999999 solid;
+}
+/* Services
+-------------------------------------------------------------------------------------*/
+
+.services {
+    width: 100%;
+    margin-bottom: 41px;
+}
+
+.service-box {
+    display: block;
+    position: relative;
+    background: transparent url(../images/service_shadow.png) no-repeat left bottom;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 0px #22413A;   
+    vertical-align: top;
+    margin-right: 40px;
+    padding-bottom: 9px;
+    float: left;
+    width:192.5px;
+}
+
+.service-box .content {
+    background-color: #036564;
+}
+
+.service-box .mosaic-block {
+    margin: 30px 0px 27px 0px
+}
+
+.service-box h2 {
+    color: #FFFFFF;
+    text-shadow: 0px 1px 0px #22413A;
+    padding: 0px 15px 8px 15px;
+}
+
+.service-box h2 a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.service-box h2 a:hover {
+    color: #E4F7B1;
+    text-decoration: none;
+}
+
+.service-box .horizon-line {
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: transparent url(../images/service_line.png) repeat-x;
+    font-size: 1px;
+}
+
+.service-box p {
+    display: block;
+    padding: 8px 15px 25px 15px;
+    margin: 0px;
+    text-align: justify;
+}
+
+.service-box-shadow {
+    height: 10px;
+    background: transparent;
+}
+/* -------------------Login box -------------------------*/
+#login {
+	width: 250px;
+	height: 220px;
+	margin: 0px auto;
+	padding: 120px 0 0 0px;
+	background-image: url(../images/login_box.png);
+	background-position: 0px 80px;
+	background-repeat: no-repeat;
+}
+#login table {
+	padding: 0 0 0 0px;
+	width: 200px;
+}
+#login table td {
+	vertical-align: top;
+	text-align: left;
+	padding: 3px 2px 0 2px;
+}
+#login input {
+	font-size: 13px;
+	background-color: transparent;
+	border: 0;
+	margin: 6px 1px 6px 0;
+	padding: 6px 0 6px 50px;
+	color: #000000;
+	font-family: Arial;
+}
+.rem {
+	display: inline-block;
+	padding: 0 0;
+	margin: 0;
+	color: black;
+	font-size: 13px;
+	text-align: left;
+	line-height: 20px;
+	vertical-align: bottom;
+	float: left;
+}
+.login-button {
+	background-image: url(images/button/login-button.png);
+	color: #006184;
+	width: 67px;
+	height: 27px;
+	cursor: pointer;
+	float: right;
+}
+.forget-button {
+	background-image: url(images/button/forget-button.png);
+	color: #006184;
+	width: 120px;
+	height: 27px;
+	cursor: pointer;
+	float: right;
+}
+.modify-button {
+	background-image: url(images/button/modify-button.png);
+	color: #006184;
+	width: 120px;
+	height: 27px;
+	cursor: pointer;
+	float: left;
+}
+
+/*Modify ----------------------------------------------*/
+body.modi {
+	margin: 0px;
+	background-color: #fff;
+	font-family: Arial;
+	background-position: center top;
+	background-image: url(images/login/login_bg.jpg);
+	background-repeat: no-repeat;
+}
+#modi {
+	width: 310px;
+	height: 220px;
+	margin: 0px auto;
+	padding: 120px 0 0 0px;
+	background-image: url(images/login/modify-bg.png);
+	background-position: 0px 80px;
+	background-repeat: no-repeat;
+}
+#modi table {
+	padding: 0 0 0 0px;
+	width: 200px;
+}
+#modi table td {
+	vertical-align: top;
+	text-align: left;
+	padding: 3px 10px 0 5px;
+}
+#modi input {
+	font-size: 13px;
+	background-color: transparent;
+	border: 0;
+	margin: 5px 0 12px;
+	padding: 0 0 0 110px;
+	color: #fff;
+	font-family: Arial;
+}
+.submit-button {
+	background-image: url(images/button/submit-button.png);
+	color: #006184;
+	width: 67px;
+	height: 27px;
+	cursor: pointer;
+	margin: 0 0 0 0;
+	float: right;
+}
+.cancel-button {
+	background-image: url(images/button/cancel-button.png);
+	color: #006184;
+	width: 67px;
+	height: 27px;
+	cursor: pointer;
+	margin: 0 0 0 0;
+	float: right;
+}
+#contact {
+	margin: 0 auto;
+	width: 600px;
+	font-size: 13px;
+}
+#contact p {
+	margin: 0;
+	padding: 0;
+	line-height: 22px;
+}
+#copyright {
+	color: #000;
+	font-size: 13px;
+	margin: 180px auto 10px;
+	width: 360px;
+	text-align: center;
+}

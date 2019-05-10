@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BASE_DATA" Class="HR_LoginDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=10.56.69.87;Initial Catalog=BASE_DATA;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="BASE_DATAConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.EmployeeBase" Member="EmployeeBase">
+    <Type Name="EmployeeBase">
+      <Column Name="Creator" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Modifier" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Modidate" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PASSWORD" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="EMAIL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ExtTelephone" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BU" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="DEPARTMENT" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SignLevel" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="NotesID" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Dept" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DeptLevel" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SuperiorID" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="SuperiorName" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="SuperiorNotesID" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="FirstAgentNotesID" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="SecondAgentNotesID" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ThirdAgentNotesID" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="AgentTurnOn" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="FlagOfLeft" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="YearsOfInduction" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="YearsOfOutside" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="SalaryLevel" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="InductionDate" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="AllSuperiorNotesID" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="SystemActive" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="AssignPower" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="rowguid" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 13.125, 9.75" name="Base">
+  <DataContextMoniker Name="/BaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="25b6c643-7b02-4dd2-98cb-db6cec9c1229" absoluteBounds="3.125, 1, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/BaseDataContext/BRM_SQL_LIST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4612ca74-bbc5-4225-954d-77d60ba97754" absoluteBounds="3.14, 1.46, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8b6de65b-970c-4ab8-86a8-eba03ed1f5fa" absoluteBounds="5.75, 1.125, 2, 6.1938297526041657">
+      <DataClassMoniker Name="/BaseDataContext/BRM_WF_Audit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c759c054-e0c9-4d26-a469-1437a76ebc6b" absoluteBounds="5.765, 1.585, 1.9700000000000002, 5.6338297526041661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1fac2c71-b40a-44bc-b040-a74f23fef5f3" absoluteBounds="0.5, 1.125, 2, 7.9245426432291648">
+      <DataClassMoniker Name="/BaseDataContext/BRM_WF_DefineDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="40d8f312-180f-46de-9fa1-919e86cf28ee" absoluteBounds="0.51500000000000012, 1.585, 1.9700000000000002, 7.3645426432291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="55c3c03c-e6ed-4750-a183-6f9faa8d79cf" absoluteBounds="3.125, 4.625, 2, 4.8477197265625">
+      <DataClassMoniker Name="/BaseDataContext/V_EPS_FormList" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5749dccc-e920-4404-9003-61001ed59e1b" absoluteBounds="3.1400000000000006, 5.085, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bb35e3ce-82f0-428b-ab7b-8867a04df974" absoluteBounds="10.75, 1.25, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/BaseDataContext/BRM_WF_Define" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d18a4466-0aa2-428b-8073-b8494e6c7429" absoluteBounds="10.765, 1.71, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="490a3447-401a-4d0f-9e45-d85401d5bf7f" absoluteBounds="8.125, 1.25, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/BaseDataContext/EPS_Attach_List" />
+      <nestedChildShapes>
+        <elementListCompartment Id="14451c7d-a141-4e6d-8f12-459384a3dac4" absoluteBounds="8.14, 1.71, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c6ce54af-8a28-4ec8-b8f3-3198e7277edb" absoluteBounds="10.875, 5.5, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/BaseDataContext/System_Index" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8164134b-19cc-44a8-8a06-4f4ffff7ca7b" absoluteBounds="10.89, 5.96, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

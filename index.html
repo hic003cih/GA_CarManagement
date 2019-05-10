@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Casework | Design Studio</title>
+<meta name="robots" content="index, follow" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<!-- Basic CSS Style (other styles are included in this file) -->
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="css/ie8.css" media="all" />
+<![endif]-->
+
+<!-- JavaScript Files -->
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/jquery.carouFredSel-5.5.5-packed.js"></script>
+<script type="text/javascript" src="js/mosaic.1.0.1.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+<script type="text/javascript">
+
+// Nivo Slider
+
+$(window).load(function() {
+    $('#nivoSlider').nivoSlider({
+        effect: 'random', // Specify sets like: 'fold,fade,sliceDown'
+        animSpeed: 500, // Slide transition speed
+        pauseTime: 5000, // How long each slide will show
+        startSlide: 0, // Set starting Slide (0 index)
+        captionOpacity: 0.8 // Universal caption opacity
+    });
+});
+
+// Image Overlays
+
+$(document).ready(function() {
+
+    $('.plus').mosaic({
+        opacity: 0.7
+    });
+
+// var $whatever        = $('.grandchild');
+// var ending_right     = window.innerWidth - $whatever.offset().left + $whatever.outerWidth();
+// alert(ending_right);
+
+});
+
+// Carousel
+
+$(window).load(function() {
+    $('#carousel ul').carouFredSel({
+        items: 4,
+        scroll: {
+        items: 4,
+        // pauseDuration: 5000, // uncomment this line when "auto" option is true
+        duration: 1000
+        },
+        auto: false,
+        prev: '#prev',
+        next: '#next'
+    });
+});
+
+</script>
+
+</head>
+
+<body>
+
+<!-- Start Wrapper -->
+<div id="wrapper">
+
+    <!-- Start Header -->
+    <div class="top-header"></div>
+
+    <div id="header">
+        <div class="into-header">
+
+            <!-- Start Logo -->
+            <div class="logo">
+                <a href="http://www.foxsemicon.com"><img src="images/logo.png" alt="FITI (Foxsemicon)" title="FITI (Foxsemicon)" /></a>
+            </div>
+            <!-- End Logo -->
+
+            <!-- Start Top Menu -->
+            <div class="topmenu">
+
+                <!-- Start Dropdown Menu -->
+                <ul id="menu" class="menu-nav">
+
+                    <li class="parent current"><a href="#">新增表單</a>
+                        <ul class="child">
+                            <li class="current"><a href="#">國內外出差申請單</a></li>
+                            <li><a href="#">派駐返台述職申請單</a></li>
+                            <li><a href="#">公出申請單</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="parent"><a href="#">表單資訊</a>
+                        <ul class="child">
+                            <li><a href="#">我簽核過的表單</a></li>
+                            <li><a href="#">表單重送</a></li>                            
+                        </ul>
+                    </li>
+
+                    <li class="parent"><a href="#">記錄查詢</a>
+                        <ul class="child">
+                            <li><a href="#">未完成文件</a></li>
+                            <li><a href="#">已完成文件</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="parent"><a href="#">管理員作業</a>
+                        <ul class="child">
+                            <li><a href="#">變更站別人員</a></li>
+                            <li><a href="#">系統權限維護</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">其他出勤表單</a>
+                    <ul class="child">
+                            <li><a href="#">請假申請單</a>
+                             <ul class="grandchild">
+                                    <li><a href="#">京鼎請假申請單</a></li>
+                                    <li><a href="#">富士邁請假申請單</a></li>                                    
+                             </ul>
+                            </li>
+                            <li><a href="#">加班申請單</a>
+                            <ul class="grandchild">
+                                    <li><a href="#">京鼎加班申請單</a></li>
+                                    <li><a href="#">富士邁加班申請單</a></li>                                    
+                             </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <!-- End Dropdown Menu -->
+
+                <!-- Start Social -->
+                <!-- End Social -->
+
+            </div>
+            <!-- End Top Menu -->
+
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="horizon-line"></div>  
+    <div class="header-shadow"></div>
+    <!-- End Header -->
+
+    <!-- Start Content -->
+    <div id="content">
+
+        <!-- Start Slider Wrapper -->
+        <div class="slider">
+        <div class="top-glow">eHR 線上作業平台</div>
+        </div>       
+
+    </div>
+    <!-- End Content -->
+
+</div>
+<!-- End Wrapper -->
+
+<!-- Start Footer -->
+<div id="footer">
+    
+    <div class="footer-shadow"></div>
+    <div class="horizon-line"></div>
+
+    <!-- Start Bottom Panel -->
+    <div id="bottom">
+        <div class="into-bottom">
+            &nbsp;<div class="backtop" id="toTop" title="Back to Top"></div>
+        </div>
+    </div>
+    <!-- End Bottom Panel -->
+
+</div>
+<!-- End Footer -->
+
+
+</body>
+</html>

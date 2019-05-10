@@ -1,0 +1,253 @@
+﻿        body
+        {
+            background-color:#F3F3E2;
+        }
+        .Approve_main
+        {
+            margin-left:auto;
+            margin-right:auto;
+            height:100%;
+            width:100%;
+            border:0px solid red;
+        }
+        .Approve_marginTop
+        {
+             margin-top:3%;
+             width:95%;
+             margin-left:5%;
+             margin-right:auto;
+        }
+        
+        .Approve_moreSign
+        {
+            font-size:13px;
+            color:#003B5A;
+            margin-left:5%;
+            margin-right:auto;
+            width:95%;  
+        }
+        .Approve_mess
+        {
+            margin-top:20px; 
+            margin-left:5%;
+            margin-right:auto;
+            font-size:15px;
+            font-weight:bold;
+            color:#003B5A;
+            width:95%;       
+        }
+        
+        .Approve_txt
+        {
+            float:left; 
+            font-size:14px;
+            color:#003B5A;  
+            width:100px;
+            margin-left:3px;
+        }
+       /*.Approve_Notify
+       {
+            font-size:15px;
+            color:#003B5A;
+       }*/
+       
+        /*#Approve_txtArea
+        {
+            width:61%;
+            height:60px; 
+            margin-left:5px; 
+            border:1px solid #58805f;
+        }*/
+        /*#Approve_NotifyMsg
+        {
+            margin-top:5px;
+            margin-left:5px;
+            width:61.5%; 
+            font-size:12px;    
+        }*/
+        .Approve_txtWidth
+        {
+            text-align:left;
+            margin-left:5px;
+            width:62%; 
+            border:1px solid #58805f;
+            font-size:12px;
+        }
+        #ddl_nextOwnerList
+        {
+            text-align:left;
+            margin-left:5px;
+            width:398px; 
+            border:1px solid #58805f;
+            font-size:12px;
+    margin-bottom: 0px;
+}
+        #Approve_txtNofity
+        {
+            height:50px; 
+        }
+        #Approve_submit
+        {
+            margin-left:66%;
+            /*border:1px solid gray;  
+            width:50px;*/
+        }
+        #Approve_close
+        {
+            margin-left:10px;
+            /*border:1px solid gray;  
+            width:50px;*/
+        }
+       
+        
+        .redStyle
+        {
+            margin-left:auto;
+            margin-right:auto;
+            font-size:12px;
+            color:#003B5A;
+            /*width:95%;    */
+        }
+        #CurrentFlow
+        {
+            font-weight:bold; 
+            font-size:13px;   
+        }
+        .Approve_txtNodeNameSize
+        {
+            margin-left:auto;
+            margin-right:auto;
+            font-size:12px;
+            color:#003B5A;
+            /*width:95%;*/
+        }
+        
+        .txtSize
+        {
+            font-size:13px;     
+        }
+        #Approve_MoreSignResult
+        {
+            width:285px;
+            font-size:10px;
+        }
+        /*.spanStyle
+        {
+            font-size:14px;
+            color:#003B5A;    
+        }*/
+        .redStyle
+        {
+            color:Red; 
+            font-size:12px; 
+            margin-bottom:3px;   
+        }
+        .Approve_label
+        {
+            margin-left:5px;     
+        }
+         #CurrentAction
+        {
+            color:Red; 
+            font-size:13px;    
+        }
+        
+        
+         /****Div彈出層樣式【選簽】****/
+        #faqbg
+        {
+            background-color: #666666;
+            position: absolute;
+            z-index: 99;
+            left: 0;
+            top: 0;
+            display: none;
+            width: 99%;
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+            -moz-opacity: 0.5;
+        }
+        #faqdiv
+        {
+            position: absolute;
+            width: 95%;
+            height: 90%;
+            margin-top:-20px;
+            margin-left:10px;
+            
+            z-index: 100;
+            background-color: #fff;
+            border: 1px #8FA4F5 solid;
+            padding: 1px;
+        }
+        #faqdiv h2
+        {
+            height: 25px;
+            font-size: 14px;
+            background-color: #8FA4F5;
+            position: relative;
+            /*padding-left: 10px;*/
+            line-height: 25px;
+        }
+        #faqdiv h2 a
+        {
+            position: absolute;
+            right: 5px;
+            font-size: 12px;
+            color: #FF0000;
+        }
+        #faqdiv .signInfo
+        {
+            padding: 10px;
+        }
+        /**********************/
+         /****Div彈出層樣式【通知】****/
+        #Mail_faqbg
+        {
+            background-color: #666666;
+            position: absolute;
+            z-index: 99;
+            left: 0;
+            top: 0;
+            display: none;
+            width: 99%;
+            margin:0px auto 0px auto;
+            
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+            -moz-opacity: 0.5;
+        }
+        #Mail_faqdiv
+        {
+            position: absolute;
+            width: 95%;
+            height: 90%;
+            margin-top:-20px;
+            margin-left:10px; 
+           
+            z-index: 100;
+            background-color: #fff;
+            border: 1px #8FA4F5 solid;
+            padding: 0px;
+        }
+        #Mail_faqdiv h2
+        {
+            height: 25px;
+            font-size: 14px;
+            background-color: #8FA4F5;
+            position: relative;
+            line-height: 25px;
+        }
+        #Mail_faqdiv h2 a
+        {
+            position: absolute;
+            right: 5px;
+            font-size: 12px;
+            color: #FF0000;
+        }
+        #Mail_faqdiv .signInfo
+        {
+            padding: 0px;
+        }
+        /**********************/
+     
